@@ -1,0 +1,13 @@
+:root {
+    --main-bg-color-white: #eeeeeedd;
+    --main-bg-color-black: #353535;
+    --main-font: 'Montserrat', sans-serif;
+}
+
+.text-white {
+    color: var(--main-bg-color-white);
+}
+
+.text-dark {
+    color: var(--main-bg-color-black);
+}

@@ -1,0 +1,6 @@
+@import '../AppContainer/AppContainer.css';
+
+.logo {
+    font-size: 4rem;
+    color: var(--main-bg-color-white);
+}
