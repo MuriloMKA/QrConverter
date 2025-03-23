@@ -1,4 +1,4 @@
-@import '../AppContainer/AppContainer.css';
+@import '../../global/global.module.css';
 
 .logo {
     font-size: 4rem;
