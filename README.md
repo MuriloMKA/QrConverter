@@ -15,6 +15,11 @@ QrConverter é um site que permite gerar QR Codes a partir de links e converter 
 - 📜JavaScript
 - 🌐HTML
 - 🎨CSS
+  
+### Bibliotecas Utilizadas
+- 📔React-BootStrap
+- 🪁AntDesign
+  
 
 ## Instalação
 
