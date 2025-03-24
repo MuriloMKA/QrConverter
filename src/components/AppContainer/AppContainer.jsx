@@ -5,7 +5,7 @@ import Converter from '../../pages/pag2'
 
 function AppContainer() {
     return (
-        <Container fluid>
+        <Container fluid className='p-0'>
             <PageHeader />
             <QRgenerator />
             <Converter />

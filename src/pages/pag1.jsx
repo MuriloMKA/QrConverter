@@ -71,9 +71,9 @@ const QRgenerator = () => {
     };
 
     return (
-        <Container fluid className={styles.fullPageContainer}>
-            <Row className="justify-content-center">
-                <Col md={6} lg={5} className="px-4 py-3">
+        <Container fluid className={styles.container}>
+            <Row className="justify-content-center vh-100">
+                <Col md={6} lg={5} className="px-4 py-3 d-flex flex-column justify-content-center">
                     <h1 className={styles.titulo}>QR Code Generator</h1>
                     <p className={styles.descricao}>
                         Gere seu QrCode rápido e fácil !<br />
@@ -119,12 +119,12 @@ const QRgenerator = () => {
                                     bgColor="#fff"
                                     style={{ marginBottom: 16 }}
                                 />
-                           <Button
-                             onClick={downloadQRCode}
-                               className={styles.downloadButton}
+                                <Button
+                                    onClick={downloadQRCode}
+                                    className={styles.downloadButton}
                                 >
-                                     Download
-                            </Button>
+                                    Download
+                                </Button>
                             </Space>
                         ) : (
                             <div className={styles.noQRCode}>Nenhum QR Code gerado ainda</div>

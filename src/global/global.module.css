@@ -1,13 +1,14 @@
 :root {
-    --main-bg-color-white: #eeeeeedd;
-    --main-bg-color-black: #353535;
+    --main-color-white: #f4f4f4;
+    --main-color-black: #111111;
+    --color-gray: #464646;
     --main-font: 'Montserrat', sans-serif;
 }
 
 .text-white {
-    color: var(--main-bg-color-white);
+    color: var(--main-color-white);
 }
 
 .text-dark {
-    color: var(--main-bg-color-black);
+    color: var(--main-color-black);
 }

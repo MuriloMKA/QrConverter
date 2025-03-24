@@ -9,7 +9,7 @@ import { Switch } from 'antd';
 
 function PageHeader() {
     return (
-        <Navbar expand="lg" className="bg-dark px-3" sticky="top">
+        <Navbar expand="lg" className="header px-3" sticky="top">
             <Container fluid>
                 <Navbar.Brand href="#home"><QrcodeOutlined className="logo" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

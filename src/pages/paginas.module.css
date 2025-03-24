@@ -1,13 +1,8 @@
 @import '..//global/global.module.css';
 
-.fullPageContainer {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: 9column;
-  padding: 15rem;
-  margin: 0;
-  overflow-x: hidden;
-  background-color: #212529;
+.container {
+  background-color: var(--main-color-black);
+  color: var(--main-color-white);
 }
 
 .pageContent {
@@ -39,7 +34,7 @@
   font-size: 3rem;
   font-family: --main-font;
   font-weight: 700;
-  color: white;
+  color: var(--main-color-white);
   letter-spacing: 1px;
 }
 
@@ -47,7 +42,7 @@
   font-size: 16px;
   font-family: --main-font;
   font-weight: 100;
-  color: white;
+  color: var(--main-color-white);
   letter-spacing: 1px;
 }
 
@@ -65,7 +60,7 @@
 }
 
 .botaoGerar {
-  background-color: #7c7c7c;
+  background-color: var(--color-gray);
   border: none;
   padding: 8px 20px;
   font-weight: 500;
@@ -77,13 +72,13 @@
 }
 
 .botaoGerar:hover:not(:disabled) {
-  background-color: #424242;
+  background-color: #575757;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .botaoGerar:disabled {
-  background-color: #bebebe;
+  background-color: #7a7a7a;
   cursor: not-allowed;
   opacity: 0.7;
 }
@@ -96,7 +91,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #212529;
+  background-color: var(--color-gray);
   transition: all 0.3s ease;
 }
 
@@ -109,12 +104,12 @@
 }
 
 .qrCodeContainer:hover {
-  border-color: #212529;
-  box-shadow: 0 2px 8px #212529;
+  border-color: var(--color-gray);
+  box-shadow: 0 2px 8px var(--color-gray);
 }
 
 .noQRCode {
-  color: #212529;
+  color: var(--color-gray);
   font-size: 16px;
   text-align: center;
   font-family: --main-font;
@@ -159,15 +154,15 @@
 }
 
 .downloadButton {
-  background-color: #7c7c7c !important;
-  border-color: #7c7c7c !important;
-  color: white !important;
+  background-color: var(--color-gray) !important;
+  border-color: var(--color-gray) !important;
+  color: var(--main-color-white) !important;
   transition: all 0.3s ease;
 }
 
 .downloadButton:hover {
-  background-color: #424242 !important;
-  border-color: #424242 !important;
+  background-color: #575757 !important;
+  border-color: #575757 !important;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

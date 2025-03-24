@@ -1,6 +1,10 @@
 @import '../../global/global.module.css';
 
+.header {
+    background-color: var(--main-color-black);
+}
+
 .logo {
     font-size: 4rem;
-    color: var(--main-bg-color-white);
+    color: var(--main-color-white);
 }
