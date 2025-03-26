@@ -2,6 +2,7 @@
 
 .header {
     background-color: var(--main-color-black);
+    height: 10vh;
 }
 
 .logo {

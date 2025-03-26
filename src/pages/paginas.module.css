@@ -1,34 +1,14 @@
-@import '..//global/global.module.css';
+@import '../global/global.module.css';
 
 .container {
   background-color: var(--main-color-black);
   color: var(--main-color-white);
 }
 
-.pageContent {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem 0;
-}
-
-
-@media (max-width: 768px) {
-  .fullPageContainer {
-    min-height: calc(100vh - 56px);
-  }
-
-  .pageContent {
-    padding: 1rem 0;
-  }
-}
-
 .spacer {
   height: 80px;
 
 }
-
 
 .titulo {
   font-size: 3rem;
@@ -39,7 +19,7 @@
 }
 
 .descricao {
-  font-size: 16px;
+  font-size: 18px;
   font-family: --main-font;
   font-weight: 100;
   color: var(--main-color-white);
@@ -50,9 +30,8 @@
 
 .inputContainer {
   max-width: 300px;
-
   margin: 0;
-
+  padding-left: 1.5rem;
 }
 
 .inputField {

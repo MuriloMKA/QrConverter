@@ -71,14 +71,16 @@ const QRgenerator = () => {
     };
 
     return (
-        <Container fluid className={styles.container}>
+        <Container fluid className={styles.container} id="generator">
             <Row className="justify-content-center vh-100">
                 <Col md={6} lg={5} className="px-4 py-3 d-flex flex-column justify-content-center">
-                    <h1 className={styles.titulo}>QR Code Generator</h1>
-                    <p className={styles.descricao}>
-                        Gere seu QrCode rápido e fácil !<br />
-                        Basta inserir o link que deseja transformar em QR Code abaixo.
-                    </p>
+                    <div className="border-start ps-4 mb-4">
+                        <h1 className={styles.titulo}>QR Code Generator</h1>
+                        <p className={styles.descricao}>
+                            Gere seu QrCode rápido e fácil !<br />
+                            Basta inserir o link que deseja transformar em QR Code abaixo.
+                        </p>
+                    </div>
 
                     <div className={styles.inputContainer}>
                         <Input
