@@ -14,3 +14,17 @@
     font-family: var(--main-font);
     color: var(--main-color-white);
 }
+
+.ant-switch.ant-switch-checked {
+    background-color: #7a7a7a !important;
+}
+
+
+.ant-switch.ant-switch-checked .ant-switch-handle::before {
+    background-color: var(--main-color-white) !important;
+}
+
+
+.ant-switch.ant-switch-checked .anticon-sun {
+    color: var(--main-color-white) !important;
+}

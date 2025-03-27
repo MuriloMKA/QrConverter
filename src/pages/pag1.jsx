@@ -115,12 +115,15 @@ const QRgenerator = () => {
                                     value={renderType}
                                     onChange={setRenderType}
                                 />
-                                <QRCode
-                                    type={renderType}
-                                    value={qrCodeValue}
-                                    bgColor="#fff"
-                                    style={{ marginBottom: 16 }}
-                                />
+                                <div className={styles.qrCodeGerado}>
+                                    <QRCode
+                                        type={renderType}
+                                        value={qrCodeValue}
+                                        bgColor="#fff"
+                                        style={{ marginBottom: 16 }}
+                                        size={256}
+                                    />
+                                </div>
                                 <Button
                                     onClick={downloadQRCode}
                                     className={styles.downloadButton}

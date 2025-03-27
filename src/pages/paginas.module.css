@@ -19,7 +19,7 @@
 }
 
 .descricao {
-  font-size: 18px;
+  font-size: 1.2rem;
   font-family: var(--main-font);
   font-weight: 100;
   color: var(--main-color-white);
@@ -29,8 +29,8 @@
 
 
 .inputContainer {
-  max-width: 300px;
-  margin: 0;
+  max-width: 400px;
+  margin-top: 2rem;
   padding-left: 1.5rem;
 }
 
@@ -45,9 +45,8 @@
   font-weight: 500;
   transition: all 0.3s ease;
   width: 100%;
-  max-width: 300px;
-
-  margin-top: 10px;
+  max-width: 400px;
+  margin-top: 0.5rem;
 }
 
 .botaoGerar:hover:not(:disabled) {
@@ -64,8 +63,8 @@
 
 .qrCodeContainer {
   border-radius: 10px;
-  width: 300px;
-  height: 300px;
+  width: 25rem;
+  height: 25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,8 +76,8 @@
 @media (max-width: 768px) {
   .qrCodeContainer {
     margin-top: 30px;
-    width: 250px;
-    height: 250px;
+    width: 15.7rem;
+    height: 15.7rem;
   }
 }
 
