@@ -15,8 +15,8 @@ function PageHeader() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="m-auto gap-5">
-                        <Nav.Link href="#generator" className="text-white">QR GENERATOR</Nav.Link>
-                        <Nav.Link href="#converter" className="text-white">FILE CONVERTER</Nav.Link>
+                        <Nav.Link href="#generator" className="font">QR GENERATOR</Nav.Link>
+                        <Nav.Link href="#converter" className="font">FILE CONVERTER</Nav.Link>
                     </Nav>
                     <Switch checkedChildren={<SunOutlined />} unCheckedChildren={<MoonOutlined />} />
                 </Navbar.Collapse>

@@ -12,7 +12,7 @@
 
 .titulo {
   font-size: 3rem;
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-weight: 700;
   color: var(--main-color-white);
   letter-spacing: 1px;
@@ -20,7 +20,7 @@
 
 .descricao {
   font-size: 18px;
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-weight: 100;
   color: var(--main-color-white);
   letter-spacing: 1px;
@@ -88,10 +88,10 @@
 }
 
 .noQRCode {
-  color: var(--color-gray);
+  color: #7a7a7a;
   font-size: 16px;
   text-align: center;
-  font-family: --main-font;
+  font-family: var(--main-font);
   font-weight: 400;
   padding: 20px;
   max-width: 80%;

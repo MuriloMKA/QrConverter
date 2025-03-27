@@ -9,3 +9,8 @@
     font-size: 4rem;
     color: var(--main-color-white);
 }
+
+.font {
+    font-family: var(--main-font);
+    color: var(--main-color-white);
+}
